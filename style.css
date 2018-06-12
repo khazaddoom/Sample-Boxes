@@ -1,18 +1,33 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #b8b8b8;
+}
+
 
 .container {
-    max-width: 900px;
+    position: relative;
+ /*   max-width: 900px;
     margin: auto;
     box-shadow: 30px 0px 40px rgba(0,0,0,0.1),
     -30px 0px 40px rgba(0,0,0,0.1);
     position: fixed;
     top: 50%;
     left: 50%;
-    /* bring your own prefixes */
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);*/
+} 
+
+img {
+    position: relative;
+    top: -50px;
 }
 
 
-div {
-    border: 1px solid red;
-    padding: 50px;
+.content {
+    max-width: 300px;
+    background: #fff;
+    box-shadow: 30px 0px 40px rgba(0,0,0,0.1),
+    -30px 0px 40px rgba(0,0,0,0.1);  
+    position: absolute;
+    transform: translate(50%, 50%);
 }
